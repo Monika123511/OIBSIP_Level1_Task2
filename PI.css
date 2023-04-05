@@ -1,0 +1,47 @@
+body {
+    margin-top: 5px;
+    background-image: url("bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 40px;
+    background-color: antiquewhite;
+    opacity: 0.5;
+}
+
+header p a {
+    cursor: pointer;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    font-size: large;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header p :hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+p {
+    color: white;
+}
+
+.text {
+    font-weight: 300;
+    letter-spacing: 1.2px;
+    font-size: 23px;
+    margin-top: 100px;
+    margin-left: 470px;
+    text-shadow: 2px 2px 4px rgb(222, 220, 232);
+}
